@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023DC46025241698001111BF /* DrawBezierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 023DC45F25241698001111BF /* DrawBezierModel.m */; };
+		0248F34425230F1B00067833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F34325230F1B00067833 /* AppDelegate.m */; };
+		0248F34725230F1B00067833 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F34625230F1B00067833 /* SceneDelegate.m */; };
+		0248F34A25230F1B00067833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F34925230F1B00067833 /* ViewController.m */; };
+		0248F34D25230F1B00067833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0248F34B25230F1B00067833 /* Main.storyboard */; };
+		0248F34F25230F1E00067833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0248F34E25230F1E00067833 /* Assets.xcassets */; };
+		0248F35225230F1E00067833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0248F35025230F1E00067833 /* LaunchScreen.storyboard */; };
+		0248F35525230F1E00067833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F35425230F1E00067833 /* main.m */; };
+		0248F35F25230F1F00067833 /* eraserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F35E25230F1F00067833 /* eraserTests.m */; };
+		0248F36A25230F1F00067833 /* eraserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F36925230F1F00067833 /* eraserUITests.m */; };
+		0248F380252310C400067833 /* EraserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F37E252310C400067833 /* EraserViewController.m */; };
+		0248F381252310C400067833 /* EraserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0248F37F252310C400067833 /* EraserViewController.xib */; };
+		0248F38B252317A100067833 /* QDoodlingBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F386252317A100067833 /* QDoodlingBezierPath.m */; };
+		0248F38D252317A100067833 /* QDoodlingDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F389252317A100067833 /* QDoodlingDrawView.m */; };
+		0248F3C925232F8400067833 /* AnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0248F3C825232F8400067833 /* AnchorView.m */; };
+		09EA89F6C96C2D41AB40C320 /* Pods_eraserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEB10A69BEF0823945959AD /* Pods_eraserTests.framework */; };
+		1B570CA124CECACC5247BFCF /* Pods_eraser_eraserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A827C2299E8545BEC5ACF21 /* Pods_eraser_eraserUITests.framework */; };
+		E5E387E06DE6258BC8D38DE5 /* Pods_eraser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B669C447EA41B4D1772C1C /* Pods_eraser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0248F35B25230F1F00067833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0248F33725230F1B00067833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0248F33E25230F1B00067833;
+			remoteInfo = eraser;
+		};
+		0248F36625230F1F00067833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0248F33725230F1B00067833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0248F33E25230F1B00067833;
+			remoteInfo = eraser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023DC45E25241698001111BF /* DrawBezierModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBezierModel.h; sourceTree = "<group>"; };
+		023DC45F25241698001111BF /* DrawBezierModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBezierModel.m; sourceTree = "<group>"; };
+		0248F33F25230F1B00067833 /* eraser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eraser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0248F34225230F1B00067833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0248F34325230F1B00067833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0248F34525230F1B00067833 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0248F34625230F1B00067833 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0248F34825230F1B00067833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0248F34925230F1B00067833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0248F34C25230F1B00067833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0248F34E25230F1E00067833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0248F35125230F1E00067833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0248F35325230F1E00067833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0248F35425230F1E00067833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0248F35A25230F1F00067833 /* eraserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eraserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0248F35E25230F1F00067833 /* eraserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eraserTests.m; sourceTree = "<group>"; };
+		0248F36025230F1F00067833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0248F36525230F1F00067833 /* eraserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eraserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0248F36925230F1F00067833 /* eraserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eraserUITests.m; sourceTree = "<group>"; };
+		0248F36B25230F1F00067833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0248F37D252310C400067833 /* EraserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EraserViewController.h; sourceTree = "<group>"; };
+		0248F37E252310C400067833 /* EraserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EraserViewController.m; sourceTree = "<group>"; };
+		0248F37F252310C400067833 /* EraserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EraserViewController.xib; sourceTree = "<group>"; };
+		0248F386252317A100067833 /* QDoodlingBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDoodlingBezierPath.m; sourceTree = "<group>"; };
+		0248F387252317A100067833 /* QDoodlingDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDoodlingDrawView.h; sourceTree = "<group>"; };
+		0248F389252317A100067833 /* QDoodlingDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDoodlingDrawView.m; sourceTree = "<group>"; };
+		0248F38A252317A100067833 /* QDoodlingBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDoodlingBezierPath.h; sourceTree = "<group>"; };
+		0248F3B525231A0B00067833 /* eraser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eraser-Bridging-Header.h"; sourceTree = "<group>"; };
+		0248F3C725232F8400067833 /* AnchorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnchorView.h; sourceTree = "<group>"; };
+		0248F3C825232F8400067833 /* AnchorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnchorView.m; sourceTree = "<group>"; };
+		18569D7880C688FE7690C3E3 /* Pods-eraserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraserTests.release.xcconfig"; path = "Target Support Files/Pods-eraserTests/Pods-eraserTests.release.xcconfig"; sourceTree = "<group>"; };
+		20B669C447EA41B4D1772C1C /* Pods_eraser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eraser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ABED27F8E86C2D84FA0E84 /* Pods-eraser-eraserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraser-eraserUITests.release.xcconfig"; path = "Target Support Files/Pods-eraser-eraserUITests/Pods-eraser-eraserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEB10A69BEF0823945959AD /* Pods_eraserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eraserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A827C2299E8545BEC5ACF21 /* Pods_eraser_eraserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eraser_eraserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDA64813C33F67472BB6D0C /* Pods-eraser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraser.release.xcconfig"; path = "Target Support Files/Pods-eraser/Pods-eraser.release.xcconfig"; sourceTree = "<group>"; };
+		8507339A93DB32D6D086B1BC /* Pods-eraserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraserTests.debug.xcconfig"; path = "Target Support Files/Pods-eraserTests/Pods-eraserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E69956F0242E545E0F602A /* Pods-eraser-eraserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraser-eraserUITests.debug.xcconfig"; path = "Target Support Files/Pods-eraser-eraserUITests/Pods-eraser-eraserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A815F8F5EA1294B5AB66289B /* Pods-eraser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eraser.debug.xcconfig"; path = "Target Support Files/Pods-eraser/Pods-eraser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0248F33C25230F1B00067833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E387E06DE6258BC8D38DE5 /* Pods_eraser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F35725230F1F00067833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EA89F6C96C2D41AB40C320 /* Pods_eraserTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F36225230F1F00067833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B570CA124CECACC5247BFCF /* Pods_eraser_eraserUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0248F33625230F1B00067833 = {
+			isa = PBXGroup;
+			children = (
+				0248F34125230F1B00067833 /* eraser */,
+				0248F35D25230F1F00067833 /* eraserTests */,
+				0248F36825230F1F00067833 /* eraserUITests */,
+				0248F34025230F1B00067833 /* Products */,
+				382384B9640C33AA3FA59326 /* Pods */,
+				0AE72053DCBF97783E019E68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0248F34025230F1B00067833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0248F33F25230F1B00067833 /* eraser.app */,
+				0248F35A25230F1F00067833 /* eraserTests.xctest */,
+				0248F36525230F1F00067833 /* eraserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0248F34125230F1B00067833 /* eraser */ = {
+			isa = PBXGroup;
+			children = (
+				0248F385252317A100067833 /* Doodling */,
+				0248F34225230F1B00067833 /* AppDelegate.h */,
+				0248F34325230F1B00067833 /* AppDelegate.m */,
+				0248F34525230F1B00067833 /* SceneDelegate.h */,
+				0248F34625230F1B00067833 /* SceneDelegate.m */,
+				0248F34825230F1B00067833 /* ViewController.h */,
+				0248F34925230F1B00067833 /* ViewController.m */,
+				0248F34B25230F1B00067833 /* Main.storyboard */,
+				0248F34E25230F1E00067833 /* Assets.xcassets */,
+				0248F35025230F1E00067833 /* LaunchScreen.storyboard */,
+				0248F35325230F1E00067833 /* Info.plist */,
+				0248F35425230F1E00067833 /* main.m */,
+				0248F37D252310C400067833 /* EraserViewController.h */,
+				0248F37E252310C400067833 /* EraserViewController.m */,
+				0248F37F252310C400067833 /* EraserViewController.xib */,
+				0248F3B525231A0B00067833 /* eraser-Bridging-Header.h */,
+			);
+			path = eraser;
+			sourceTree = "<group>";
+		};
+		0248F35D25230F1F00067833 /* eraserTests */ = {
+			isa = PBXGroup;
+			children = (
+				0248F35E25230F1F00067833 /* eraserTests.m */,
+				0248F36025230F1F00067833 /* Info.plist */,
+			);
+			path = eraserTests;
+			sourceTree = "<group>";
+		};
+		0248F36825230F1F00067833 /* eraserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0248F36925230F1F00067833 /* eraserUITests.m */,
+				0248F36B25230F1F00067833 /* Info.plist */,
+			);
+			path = eraserUITests;
+			sourceTree = "<group>";
+		};
+		0248F385252317A100067833 /* Doodling */ = {
+			isa = PBXGroup;
+			children = (
+				0248F38A252317A100067833 /* QDoodlingBezierPath.h */,
+				0248F386252317A100067833 /* QDoodlingBezierPath.m */,
+				0248F387252317A100067833 /* QDoodlingDrawView.h */,
+				0248F389252317A100067833 /* QDoodlingDrawView.m */,
+				0248F3C725232F8400067833 /* AnchorView.h */,
+				0248F3C825232F8400067833 /* AnchorView.m */,
+				023DC45E25241698001111BF /* DrawBezierModel.h */,
+				023DC45F25241698001111BF /* DrawBezierModel.m */,
+			);
+			path = Doodling;
+			sourceTree = "<group>";
+		};
+		0AE72053DCBF97783E019E68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B669C447EA41B4D1772C1C /* Pods_eraser.framework */,
+				5A827C2299E8545BEC5ACF21 /* Pods_eraser_eraserUITests.framework */,
+				4FEB10A69BEF0823945959AD /* Pods_eraserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		382384B9640C33AA3FA59326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A815F8F5EA1294B5AB66289B /* Pods-eraser.debug.xcconfig */,
+				7DDA64813C33F67472BB6D0C /* Pods-eraser.release.xcconfig */,
+				A0E69956F0242E545E0F602A /* Pods-eraser-eraserUITests.debug.xcconfig */,
+				29ABED27F8E86C2D84FA0E84 /* Pods-eraser-eraserUITests.release.xcconfig */,
+				8507339A93DB32D6D086B1BC /* Pods-eraserTests.debug.xcconfig */,
+				18569D7880C688FE7690C3E3 /* Pods-eraserTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0248F33E25230F1B00067833 /* eraser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0248F36E25230F1F00067833 /* Build configuration list for PBXNativeTarget "eraser" */;
+			buildPhases = (
+				FEA00328FC20C43098C8DDEF /* [CP] Check Pods Manifest.lock */,
+				0248F33B25230F1B00067833 /* Sources */,
+				0248F33C25230F1B00067833 /* Frameworks */,
+				0248F33D25230F1B00067833 /* Resources */,
+				D9DA6C99BDDDCC5EDC1250A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eraser;
+			productName = eraser;
+			productReference = 0248F33F25230F1B00067833 /* eraser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0248F35925230F1F00067833 /* eraserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0248F37125230F1F00067833 /* Build configuration list for PBXNativeTarget "eraserTests" */;
+			buildPhases = (
+				74A2C7DFAD931612475F95C7 /* [CP] Check Pods Manifest.lock */,
+				0248F35625230F1F00067833 /* Sources */,
+				0248F35725230F1F00067833 /* Frameworks */,
+				0248F35825230F1F00067833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0248F35C25230F1F00067833 /* PBXTargetDependency */,
+			);
+			name = eraserTests;
+			productName = eraserTests;
+			productReference = 0248F35A25230F1F00067833 /* eraserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0248F36425230F1F00067833 /* eraserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0248F37425230F1F00067833 /* Build configuration list for PBXNativeTarget "eraserUITests" */;
+			buildPhases = (
+				46296818FBDD3F48B7E9FFA1 /* [CP] Check Pods Manifest.lock */,
+				0248F36125230F1F00067833 /* Sources */,
+				0248F36225230F1F00067833 /* Frameworks */,
+				0248F36325230F1F00067833 /* Resources */,
+				2A6A3F8D0C9F011E5B81A376 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0248F36725230F1F00067833 /* PBXTargetDependency */,
+			);
+			name = eraserUITests;
+			productName = eraserUITests;
+			productReference = 0248F36525230F1F00067833 /* eraserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0248F33725230F1B00067833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0248F33E25230F1B00067833 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					0248F35925230F1F00067833 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0248F33E25230F1B00067833;
+					};
+					0248F36425230F1F00067833 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 0248F33E25230F1B00067833;
+					};
+				};
+			};
+			buildConfigurationList = 0248F33A25230F1B00067833 /* Build configuration list for PBXProject "eraser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0248F33625230F1B00067833;
+			productRefGroup = 0248F34025230F1B00067833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0248F33E25230F1B00067833 /* eraser */,
+				0248F35925230F1F00067833 /* eraserTests */,
+				0248F36425230F1F00067833 /* eraserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0248F33D25230F1B00067833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0248F35225230F1E00067833 /* LaunchScreen.storyboard in Resources */,
+				0248F34F25230F1E00067833 /* Assets.xcassets in Resources */,
+				0248F381252310C400067833 /* EraserViewController.xib in Resources */,
+				0248F34D25230F1B00067833 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F35825230F1F00067833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F36325230F1F00067833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A6A3F8D0C9F011E5B81A376 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eraser-eraserUITests/Pods-eraser-eraserUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eraser-eraserUITests/Pods-eraser-eraserUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eraser-eraserUITests/Pods-eraser-eraserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46296818FBDD3F48B7E9FFA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eraser-eraserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A2C7DFAD931612475F95C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eraserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DA6C99BDDDCC5EDC1250A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eraser/Pods-eraser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eraser/Pods-eraser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eraser/Pods-eraser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA00328FC20C43098C8DDEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eraser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0248F33B25230F1B00067833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023DC46025241698001111BF /* DrawBezierModel.m in Sources */,
+				0248F38D252317A100067833 /* QDoodlingDrawView.m in Sources */,
+				0248F380252310C400067833 /* EraserViewController.m in Sources */,
+				0248F34A25230F1B00067833 /* ViewController.m in Sources */,
+				0248F34425230F1B00067833 /* AppDelegate.m in Sources */,
+				0248F35525230F1E00067833 /* main.m in Sources */,
+				0248F34725230F1B00067833 /* SceneDelegate.m in Sources */,
+				0248F3C925232F8400067833 /* AnchorView.m in Sources */,
+				0248F38B252317A100067833 /* QDoodlingBezierPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F35625230F1F00067833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0248F35F25230F1F00067833 /* eraserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0248F36125230F1F00067833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0248F36A25230F1F00067833 /* eraserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0248F35C25230F1F00067833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0248F33E25230F1B00067833 /* eraser */;
+			targetProxy = 0248F35B25230F1F00067833 /* PBXContainerItemProxy */;
+		};
+		0248F36725230F1F00067833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0248F33E25230F1B00067833 /* eraser */;
+			targetProxy = 0248F36625230F1F00067833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0248F34B25230F1B00067833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0248F34C25230F1B00067833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0248F35025230F1E00067833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0248F35125230F1E00067833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0248F36C25230F1F00067833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0248F36D25230F1F00067833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0248F36F25230F1F00067833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A815F8F5EA1294B5AB66289B /* Pods-eraser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/eraser/eraser-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0248F37025230F1F00067833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDA64813C33F67472BB6D0C /* Pods-eraser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/eraser/eraser-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0248F37225230F1F00067833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8507339A93DB32D6D086B1BC /* Pods-eraserTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eraser.app/eraser";
+			};
+			name = Debug;
+		};
+		0248F37325230F1F00067833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18569D7880C688FE7690C3E3 /* Pods-eraserTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eraser.app/eraser";
+			};
+			name = Release;
+		};
+		0248F37525230F1F00067833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E69956F0242E545E0F602A /* Pods-eraser-eraserUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eraser;
+			};
+			name = Debug;
+		};
+		0248F37625230F1F00067833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ABED27F8E86C2D84FA0E84 /* Pods-eraser-eraserUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRF6T69UD8;
+				INFOPLIST_FILE = eraserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjzj.eraserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eraser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0248F33A25230F1B00067833 /* Build configuration list for PBXProject "eraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0248F36C25230F1F00067833 /* Debug */,
+				0248F36D25230F1F00067833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0248F36E25230F1F00067833 /* Build configuration list for PBXNativeTarget "eraser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0248F36F25230F1F00067833 /* Debug */,
+				0248F37025230F1F00067833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0248F37125230F1F00067833 /* Build configuration list for PBXNativeTarget "eraserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0248F37225230F1F00067833 /* Debug */,
+				0248F37325230F1F00067833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0248F37425230F1F00067833 /* Build configuration list for PBXNativeTarget "eraserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0248F37525230F1F00067833 /* Debug */,
+				0248F37625230F1F00067833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0248F33725230F1B00067833 /* Project object */;
+}
